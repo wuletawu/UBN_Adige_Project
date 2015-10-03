@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/jfree/jfreechart/1.0.13/jfreechart-1.0.13.jar"/>
+  <classpathentry kind="var" path="M2_REPO/jfree/jcommon/1.0.16/jcommon-1.0.16.jar" sourcepath="M2_REPO/jfree/jcommon/1.0.16/jcommon-1.0.16-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/administrator/.m2/repository/jfree/jcommon/1.0.16/jcommon-1.0.16-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/groovy/groovy-all/1.7.1/groovy-all-1.7.1.jar" sourcepath="M2_REPO/org/codehaus/groovy/groovy-all/1.7.1/groovy-all-1.7.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/administrator/.m2/repository/org/codehaus/groovy/groovy-all/1.7.1/groovy-all-1.7.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/jline/jline/0.9.94/jline-0.9.94.jar" sourcepath="M2_REPO/jline/jline/0.9.94/jline-0.9.94-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/fusesource/jansi/jansi/1.2.1/jansi-1.2.1.jar" sourcepath="M2_REPO/org/fusesource/jansi/jansi/1.2.1/jansi-1.2.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/administrator/.m2/repository/org/fusesource/jansi/jansi/1.2.1/jansi-1.2.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/com/sun/jna/jna/3.0.9/jna-3.0.9.jar" sourcepath="M2_REPO/com/sun/jna/jna/3.0.9/jna-3.0.9-sources.jar"/>
+</classpath>

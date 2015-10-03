@@ -1,0 +1,32 @@
+// change the variables to fix your needs
+def folder = new File("/home/moovida/development/jgrasstools-hg/jgrasstools/hortonmachine/src/test/resources/").absolutePath;
+def pit = "dtm_test_pit.asc"
+def flow = "dtm_test_flow.asc"
+
+s = sb.sim(name:"NetworkExtraction") {
+
+    model {
+        components  {
+          reader    'RasterReader'
+          writer    'ArcgridCoverageWriter'
+          flowDirections 'FlowDirections'
+        }
+
+        parameter {
+           'reader.file' "$folder/$pit"
+           'writer.file' "$folder/$flow"
+           'flowDirections.pm' pm
+        }
+
+        connect {
+          'reader.geodata' 'flowDirections.inPit'
+          'flowDirections.outFlow' 'writer.geodata'
+        }
+    }
+}
+
+res = s.run();
+def exists = new File(res.writer.file).exists();
+println "Output file has been created: ${exists}"
+
+

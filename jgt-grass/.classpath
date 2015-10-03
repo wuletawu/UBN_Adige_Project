@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="src" path="/jgt-oms3"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/groovy/groovy-all/1.7.1/groovy-all-1.7.1.jar" sourcepath="M2_REPO/org/codehaus/groovy/groovy-all/1.7.1/groovy-all-1.7.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/administrator/.m2/repository/org/codehaus/groovy/groovy-all/1.7.1/groovy-all-1.7.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/jline/jline/0.9.94/jline-0.9.94.jar" sourcepath="M2_REPO/jline/jline/0.9.94/jline-0.9.94-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/sun/jna/jna/3.0.9/jna-3.0.9.jar" sourcepath="M2_REPO/com/sun/jna/jna/3.0.9/jna-3.0.9-sources.jar"/>
+</classpath>
